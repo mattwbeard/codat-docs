@@ -30,9 +30,7 @@ ul.card-container {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
   }
-}
 
-@media screen and (max-width: 860px) {
   ul.card-container,
   ul.card-container.col-2 {
     grid-template-columns: 1fr;

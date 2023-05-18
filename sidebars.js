@@ -221,7 +221,27 @@ module.exports = {
         "usecases/summary/automating-receivables",
         "usecases/summary/integrating-commerce-data",
         "usecases/summary/managing-payroll",
-        "usecases/summary/reconciling-bank-transactions",
+        {
+          type: "category",
+          label: "Reconciling bank transactions",
+          collapsed: true,
+          className: "top-level-item",
+          items: [
+            "usecases/summary/reconciling-bank-transactions",
+            {
+              type: "category",
+              label: "Implementing bank feeds",
+              collapsed: true,
+              className: "top-level-item",
+              items: [
+                "usecases/bank-feeds/overview",
+                "usecases/bank-feeds/prerequisites",
+                "usecases/bank-feeds/deauthorization",
+                "usecases/bank-feeds/pitfalls",
+              ],
+            }
+          ],
+        },
       ],
     },
     {
