@@ -74,6 +74,13 @@ html[data-theme="dark"] {
     display: none !important;
   }
 
+  .menu {
+    hr {
+      margin: 1em 0 !important;
+      opacity: 0.3;
+    }
+  }
+
   .menu__list {
     display: block !important;
     transition: height 0.35s cubic-bezier(0.36, 0.66, 0.04, 1) 25ms !important;
@@ -248,6 +255,7 @@ html[data-theme="dark"] {
 
     &.introduction,
     &.core,
+    &.config,
     &.api,
     &.auth,
     &.data,
@@ -274,11 +282,7 @@ html[data-theme="dark"] {
       }
     }
   }
-
-  .menu__list-item.usecases {
-    margin-top: 3em;
-  }
-
+  
   .menu__list-item.products {
     .menu__list-item.product {
       &:first-child {
@@ -330,6 +334,22 @@ html[data-theme="dark"] {
     }
   }
 
+  .menu__list-item.top-level-item {
+    > div > .menu__link--sublist {
+      &:hover {
+        &::after {
+          transform: scale(1.1);
+        }
+      }
+
+      &:active {
+        &::after {
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+
   .menu__list-item {
     &.introduction > div > .menu__link--sublist::after {
       background: url("/img/sidebar/introduction.svg");
@@ -339,6 +359,19 @@ html[data-theme="dark"] {
     &.core > div > .menu__link--sublist::after {
       background: url("/img/sidebar/core-concepts.svg");
       background-size: cover !important;
+    }
+
+    &.config > div > .menu__link--sublist{
+      &:hover {
+        &::after {
+          transform: rotate(120deg);
+        }
+      }
+
+      &::after {
+        background: url("/img/sidebar/gear-fine.svg");
+        background-size: cover !important;
+      }
     }
 
     &.api > div > .menu__link--sublist::after {

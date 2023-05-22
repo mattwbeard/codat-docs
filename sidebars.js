@@ -21,22 +21,16 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Getting started",
+      label: "Get started",
       collapsed: true,
       className: "top-level-item introduction",
       items: [
         "introduction/first-steps",
         "introduction/first-ten-minutes",
-        "introduction/libraries",
-        "introduction/create-account",
-        "introduction/migration",
-        {
-          type: "link",
-          label: "Integration coverage",
-          href: "https://knowledge.codat.io/supported-features/accounting",
-        },
-        "introduction/office-hours",
         "other/developer-resources",
+        "introduction/libraries",
+        "introduction/migration",
+        "introduction/office-hours",
       ],
     },
     {
@@ -85,6 +79,9 @@ module.exports = {
       type: "category",
       label: "Learn",
       collapsed: true,
+      customProps: {
+        hr: true,
+      },
       className: "top-level-item core",
       items: [
         "core-concepts/overview",
@@ -96,6 +93,7 @@ module.exports = {
         {
           type: "link",
           href: "/codat-api",
+          className: "external",
           label: "Common API reference",
         },
       ],
@@ -104,18 +102,25 @@ module.exports = {
       type: "category",
       label: "Configure",
       collapsed: true,
-      className: "top-level-item core",
+      className: "top-level-item config",
       items: [
         "other/portal/dashboard",
-        "core-concepts/data-type-settings",
+        {
+          type: "category",
+          label: "Settings",
+          collapsed: true,
+          items: [
+            "core-concepts/data-type-settings",
+          ]
+        },
         "other/portal/companies",
-        "other/portal/pull-and-push-history",
         "other/portal/developers",
         {
           type: "category",
           label: "Organisation",
           collapsed: true,
           items: [
+            "introduction/create-account",
             {
               type: "category",
               label: "User management",
@@ -131,7 +136,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "Account",
+          label: "Your account",
           collapsed: true,
           items: [
             "other/portal/account-management",
@@ -141,7 +146,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Using our API",
+      label: "Use our API",
       collapsed: true,
       className: "top-level-item api",
       items: [
@@ -150,7 +155,18 @@ module.exports = {
         "using-the-api/managing-companies",
         {
           type: "category",
-          label: "Pulling data",
+          label: "Company data",
+          collapsed: true,
+          items: [
+            "using-the-api/get-data",
+            "using-the-api/queueing-data-syncs",
+            "using-the-api/push",
+            "other/portal/pull-and-push-history",
+          ],
+        },
+        {
+          type: "category",
+          label: "/get behaviour",
           collapsed: true,
           items: [
             "using-the-api/querying",
@@ -159,11 +175,16 @@ module.exports = {
             "using-the-api/modified-dates",
           ],
         },
-        "using-the-api/queueing-data-syncs",
-        "using-the-api/push",
-        "using-the-api/errors",
-        "using-the-api/rate-limits",
-        "using-the-api/optimizing-api-calls",
+        {
+          type: "category",
+          label: "Troubleshooting",
+          collapsed: true,
+          items: [
+            "using-the-api/errors",
+            "using-the-api/rate-limits",
+            "using-the-api/optimizing-api-calls",
+          ],
+        },
         {
           type: "category",
           label: "Webhooks",
@@ -186,13 +207,6 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Data model",
-      collapsed: true,
-      className: "top-level-item data",
-      items: dataModel,
-    },
-    {
-      type: "category",
       label: "Authorization flow",
       collapsed: true,
       className: "top-level-item auth",
@@ -201,6 +215,9 @@ module.exports = {
     {
       type: "category",
       label: "Use cases",
+      customProps: {
+        hr: true,
+      },
       collapsed: true,
       className: "top-level-item usecases",
       items: [
@@ -245,6 +262,13 @@ module.exports = {
       label: "Integrations",
       className: "top-level-item integrations",
       href: "/integrations/all-integrations",
+    },
+    {
+      type: "category",
+      label: "Data model",
+      collapsed: true,
+      className: "top-level-item data",
+      items: dataModel,
     },
     {
       type: "category",
