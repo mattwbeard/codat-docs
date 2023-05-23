@@ -1,6 +1,6 @@
 ---
 title: "Create and update data"
-description: "Understand how to add data to and update data in Codat's integrated platforms"
+description: "Understand how to add data and update data in Codat's integrated platforms"
 ---
 
 In addition to pulling data from integrations, you can push data to create and update records in the underlying integrations using Codat's data model.
