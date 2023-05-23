@@ -1,7 +1,7 @@
 ---
 title: "Configure your Codat solution"
 sidebar_label: Overview
-description: "Learn how to configure your Codat solution"
+description: "Learn how to configure your Codat solution in the Portal"
 ---
 
 ## Navigating the Portal
