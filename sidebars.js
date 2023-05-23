@@ -117,7 +117,7 @@ module.exports = {
         "other/portal/developers",
         {
           type: "category",
-          label: "Organisation",
+          label: "Organization",
           collapsed: true,
           items: [
             "introduction/create-account",
