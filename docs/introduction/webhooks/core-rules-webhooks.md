@@ -1,5 +1,5 @@
 ---
-title: "Listenito events"
+title: "Listen to events"
 description: "Basics of webhook alerts when using Codat's APIs"
 createdAt: "2020-04-01T20:16:29.839Z"
 updatedAt: "2022-11-24T12:56:40.816Z"
