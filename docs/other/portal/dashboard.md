@@ -26,7 +26,7 @@ Clicking **Manage products** takes you to the Products page, where you can manag
 
 See real-time insights into the number of companies and the current statuses of their [data connections](/core-concepts/connections). 
 
-The dashboard displays a chart showing the number of total created companies and the number of active companies for the current billing period (depending on your plan)
+The dashboard displays a chart showing the number of total created companies and the number of active companies for the current billing period (depending on your plan).
 
 Beneath this is a breakdown of the number of connections by status. A company's connections can have the following statuses: `Linked`, `PendingAuth`, `Deauthorized`, `Unlinked`, or `No connections`. A company can have multiple connections.
 
