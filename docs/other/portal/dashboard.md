@@ -14,7 +14,7 @@ Some navigation bar tabs (for example, the [Developers](/other/portal/developers
 
 #### Getting started
 
-Quick-access some useful resources including our getting started guides for both technical and non-technical users, and where to find your API keys (if your user role allows you access).
+Quick-access some useful resources including our getting started guides for both technical and non-technical users, and learn where to find your API keys (if your user role allows you access).
 
 #### Your products
 
