@@ -23,7 +23,7 @@ In Codat, an integration represents a third-party data source that you can conne
       <h3>Accounting</h3>
     </div>
     <p>
-      CPull up-to-date accounting data from your customers' accounting software as well as push data to their software using Codat's standard accounting data model.
+      Pull up-to-date accounting data from your customers' accounting software as well as push data to their software using Codat's standard accounting data model.
     </p>
     <p>
       <a href="/integrations/accounting/overview">See our accounting integrations→</a>
