@@ -1,5 +1,5 @@
 ---
-title: "Configuring your Codat solution"
+title: "Configure your Codat solution"
 sidebar_label: Overview
 description: "Learn how to configure your Codat solution"
 ---
