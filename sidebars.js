@@ -166,7 +166,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "/get behaviour",
+          label: "/get behavior",
           collapsed: true,
           items: [
             "using-the-api/querying",
