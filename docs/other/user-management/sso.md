@@ -7,7 +7,7 @@ updatedAt: "2022-12-19T06:15:27.799Z"
 
 :::note SAML SSO
 
-We'll soon be offering SAML SSO on our Enterprise plans. If you're interested in this featuyre, please talk to your account manager.
+We'll soon be offering SAML SSO on our Enterprise plans. If you're interested in this feature, please talk to your account manager.
 
 :::
 
