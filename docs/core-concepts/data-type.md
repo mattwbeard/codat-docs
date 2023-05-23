@@ -5,7 +5,7 @@ tags:
   - Core concept
 ---
 
-In Codat, each type of data you want to retrieve for a given company is represented by a 'data type'.
+In Codat, each type of data you want to create, update, or retrieve for a given company from a data source is represented by a data type. It has a defined schema with known properties and validation rules.
 
 ## Data type categories
 
