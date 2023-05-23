@@ -22,7 +22,7 @@ You can configure a sync schedule in the Codat portal to keep each data type at 
 
 ## Request a specific data type
 
-Codat exposes endpoints for easily querying each of the supported data types.
+Codat exposes endpoints that enable you to easily query each of the supported data types.
 
 For example, when querying invoices, you can use the [GET /companies/{companyId}/data/invoices](/accounting-api#/operations/list-invoices) endpoint, with query string parameters as below:
 
