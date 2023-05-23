@@ -83,7 +83,7 @@ In Codat, an integration represents a third-party data source that you can conne
       <h3>File upload</h3>
     </div>
     <p>
-      Codat's file upload integrations allow your customers to share any documentation you require them to provide. This may include personal identity documents, pitch decks, contracts, or files with accounting and banking data.
+      Enable your customers to share any documentation you require them to provide. This may include personal identity documents, pitch decks, contracts, or files with accounting and banking data.
     </p>
     <p>
       <a href="/other/file-upload">Read about file upload →</a>
